@@ -1,0 +1,16 @@
+.topbar{
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.button-group{
+    height: 80%;
+}

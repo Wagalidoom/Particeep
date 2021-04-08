@@ -1,0 +1,21 @@
+.main_container {
+  display: grid;
+  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  column-gap: 1%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1120px) {
+  .main_container {
+    grid-template-columns: 49% 49%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .main_container {
+      grid-template-columns: 95%;
+    }
+  }
